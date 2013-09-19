@@ -1,0 +1,21 @@
+{
+  "strict": true,
+  "indent": 2,
+  "maxlen": 80,
+  "unused": true,
+  "undef": true,
+  "browser": true,
+  "devel": true,
+  "debug": true,
+  "globals": {
+    "xit"      : true,
+    "sinon"    : true,
+    "expect"   : true,
+    "it"         : true,
+    "beforeEach" : true,
+    "GaTrackingFbEvent": true,
+    "describe" : true,
+    "FB"       : true,
+    "ga"       : true
+  }
+}

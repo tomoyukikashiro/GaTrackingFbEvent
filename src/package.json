@@ -1,0 +1,15 @@
+{
+  "author": "tomoyuki.kashiro",
+  "name": "GaTrackingFbEvent",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-karma": "*",
+    "karma": "*",
+    "mocha": "~1.13.0",
+    "karma-mocha": "~0.1.0"
+  }
+}
