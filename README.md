@@ -19,7 +19,9 @@ Utility Class of tracking some Facebook events by using Google Analyitcs
   gaFbEvent.subscribe();
 ```
 
-## Usage (if you load Facebook SDK asynchronously)
+## Usage
+
+load Facebook SDK asynchronously
 
 ```html
 
@@ -75,4 +77,8 @@ window.fbAsyncInit = function(){
 </script>
 
 ```
+
+## Notice
+
+* This script support Universal Analytics (analytics.js)
 
