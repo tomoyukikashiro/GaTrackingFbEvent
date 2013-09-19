@@ -1,0 +1,9 @@
+before_script:
+  - "cd src"
+script:
+  - "npm test"
+
+language: node_js
+
+node_js:
+  - 0.8

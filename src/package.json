@@ -2,6 +2,9 @@
   "author": "tomoyuki.kashiro",
   "name": "GaTrackingFbEvent",
   "version": "0.1.0",
+  "engines" : {
+    "node" : "~0.8"
+  },
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-uglify": "*",
@@ -11,5 +14,8 @@
     "karma": "*",
     "mocha": "~1.13.0",
     "karma-mocha": "~0.1.0"
+  },
+  "scripts" : {
+    "test" : "node_modules/karma/bin/karma start karma.conf.js --no-auto-watch --single-run --browsers PhantomJS"
   }
 }
