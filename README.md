@@ -1,5 +1,7 @@
 # GaTrackingFbEvent
 
+[![Build Status](https://travis-ci.org/kashiro/GaTrackingFbEvent.png?branch=master)](https://travis-ci.org/kashiro/GaTrackingFbEvent)
+
 Utility Class of tracking some Facebook events by using Google Analyitcs
 
 ## Initialize
