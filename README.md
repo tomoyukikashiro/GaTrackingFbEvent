@@ -2,10 +2,30 @@
 
 Utility Class of tracking some Facebook events by using Google Analyitcs
 
-## Usage (if you load Facebook SDK asynchronously)
+## Initialize
+
+```javascript
+  var gaFbEvent = new GoolgeAnalyticsFbEvent({
+    like          : true, // when set false, do not track
+    unlike        : true,
+    addComment    : true,
+    removeComment : true,
+    sendMessage   : true,
+    callback      : function(res){
+      // callback fire when these event was called.
+    }
+  });
+  // subscribe Facebook event to tracking by Google Analytics
+  gaFbEvent.subscribe();
+```
+
+## Usage
+
+load Facebook SDK asynchronously
 
 ```html
 
+<!-- load this script -->
 <script src="./GoolgeAnalyticsFbEvent.js"></script>
 
 <script>
@@ -14,7 +34,7 @@ Utility Class of tracking some Facebook events by using Google Analyitcs
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-44161539-1', 'ksrtmyk.info');
+  ga('create', 'UA-XXXXXXX-X', ${YOUR_DOMAIN});
   ga('send', 'pageview');
 
 </script>
@@ -23,11 +43,10 @@ Utility Class of tracking some Facebook events by using Google Analyitcs
 window.fbAsyncInit = function(){
 
   FB.init({
-    appId      : '147270312068902', // App ID
-    //channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
-    status     : true, // check login status
-    cookie     : true, // enable cookies to allow the server to access the session
-    xfbml      : true  // parse XFBML
+    appId      : ${FACEBOOK_APP_ID},
+    status     : true,
+    cookie     : true,
+    xfbml      : true
   });
 
   var gaFbEvent = new GoolgeAnalyticsFbEvent({
@@ -37,9 +56,10 @@ window.fbAsyncInit = function(){
     removeComment : true,
     sendMessage   : true,
     callback      : function(res){
-      console.dir(res);
+      // callback fire when these event was called.
     }
   });
+  // subscribe Facebook event to tracking by Google Analytics
   gaFbEvent.subscribe();
 
 };
@@ -57,3 +77,7 @@ window.fbAsyncInit = function(){
 </script>
 
 ```
+
+## Notice
+
+* This script support Universal Analytics (analytics.js)
