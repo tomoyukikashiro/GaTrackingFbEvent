@@ -8,14 +8,14 @@
   "devel": true,
   "debug": true,
   "globals": {
-    "xit"      : true,
-    "sinon"    : true,
-    "expect"   : true,
+    "xit"        : true,
+    "sinon"      : true,
+    "expect"     : true,
     "it"         : true,
     "beforeEach" : true,
     "GaTrackingFbEvent": true,
-    "describe" : true,
-    "FB"       : true,
-    "ga"       : true
+    "describe"   : true,
+    "FB"         : true,
+    "ga"         : true
   }
 }
