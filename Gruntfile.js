@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   "use strict";
 
   var lintFiles = [
-    'js/GaTrackingFbEvent.js'
+    'src/js/GaTrackingFbEvent.js'
   ];
 
   // Project configuration.
@@ -24,13 +24,13 @@ module.exports = function(grunt) {
     concat: {
       prod: {
         src: lintFiles,
-        dest: '../dist/GaTrackingFbEvent.js'
+        dest: 'dist/GaTrackingFbEvent.js'
       }
     },
     uglify: {
       dist: {
         files: {
-          "../dist/GaTrackingFbEvent.min.js":['../dist/GaTrackingFbEvent.js']
+          "dist/GaTrackingFbEvent.min.js":['dist/GaTrackingFbEvent.js']
         }
       }
     },

@@ -14,10 +14,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      './js/GaTrackingFbEvent.js',
-      './test/lib/sinon-1.5.2.js',
-      './test/lib/expect.js',
-      './test/spec/GaTrackingFbEventSpec.js'
+      './src/js/GaTrackingFbEvent.js',
+      './src/test/lib/sinon-1.5.2.js',
+      './src/test/lib/expect.js',
+      './src/test/spec/GaTrackingFbEventSpec.js'
     ],
 
 

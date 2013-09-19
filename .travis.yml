@@ -1,5 +1,3 @@
-before_script:
-  - "cd src"
 script:
   - "npm test"
 
