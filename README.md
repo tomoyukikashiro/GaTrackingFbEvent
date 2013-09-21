@@ -84,6 +84,13 @@ window.fbAsyncInit = function(){
 
 ```
 
+## Check on Google Analytics
+
+1. access to Google Analytics
+2. `Traffic Sources -> Social -> Plugins -> URL -> Social Source and Action`
+
+![Google Analytics Screenshot](https://raw.github.com/kashiro/GaTrackingFbEvent/master/resources/screenshot.png)
+
 ## Notice
 
 * This script support Universal Analytics (analytics.js)
