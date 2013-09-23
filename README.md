@@ -32,7 +32,7 @@ load Facebook SDK asynchronously
 ```html
 
 <!-- load this script -->
-<script src="./GoolgeAnalyticsFbEvent.js"></script>
+<script src="./GaTrackingFbEvent.min.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
