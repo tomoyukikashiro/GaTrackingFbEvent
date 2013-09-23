@@ -55,7 +55,7 @@ window.fbAsyncInit = function(){
     xfbml      : true
   });
 
-  var gaFbEvent = new GoolgeAnalyticsFbEvent({
+  var gaFbEvent = new GaTrackingFbEvent({
     like          : true,
     unlike        : true,
     addComment    : true,
