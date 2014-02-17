@@ -17,7 +17,7 @@ This script enable to track some Facebook event such as like, unlike, add commen
 ## Initialize
 
 ```javascript
-  var gaFbEvent = new GoolgeAnalyticsFbEvent({
+  var gaFbEvent = new GaTrackingFbEvent({
     like          : true, // when set false, do not track
     unlike        : true,
     addComment    : true,
@@ -38,7 +38,7 @@ load Facebook SDK asynchronously
 ```html
 
 <!-- load this script -->
-<script src="./GoolgeAnalyticsFbEvent.js"></script>
+<script src="./GaTrackingFbEvent.min.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -61,7 +61,7 @@ window.fbAsyncInit = function(){
     xfbml      : true
   });
 
-  var gaFbEvent = new GoolgeAnalyticsFbEvent({
+  var gaFbEvent = new GaTrackingFbEvent({
     like          : true,
     unlike        : true,
     addComment    : true,
