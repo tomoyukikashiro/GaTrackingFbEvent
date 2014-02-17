@@ -1,0 +1,25 @@
+{
+  "name": "GaTrackingFbEvent",
+  "version": "0.1.1",
+  "homepage": "https://github.com/kashiro/GaTrackingFbEvent",
+  "authors": [
+    "Tomoyuki Kashiro <ksrtmyk@gmail.com>"
+  ],
+  "description": "Utility Class of tracking some Facebook events by using Google Analyitcs",
+  "main": "dist/GaTrackingFbEvent.js",
+  "keywords": [
+    "googleanalytics",
+    "facebook"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "karma.conf.js",
+    "resources",
+    "src",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
