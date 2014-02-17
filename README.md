@@ -8,6 +8,12 @@ Utility Class of tracking some Facebook events by using Google Analyitcs
 
 This script enable to track some Facebook event such as like, unlike, add comment, remove comment and send message. 
 
+## Install via bower
+
+```bash
+  bower install GaTrackingFbEvent --save
+```
+
 ## Initialize
 
 ```javascript
